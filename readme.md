@@ -8,6 +8,14 @@ git status // shows you all new things that were not uploaded on github
 
 git add . // if you made a new file or a new folder you have to track it by type git add "file name" or git add . to track all
 
+git commit // saves changes in the local repository 
+
 git push // upload the changes
 
 ls // lists the files and the directories in the current directory
+
+git init // initialize the repository
+
+git remote add origin // it gives us a reference to the github repository
+
+git push -u origin main // use it once to just use git push directly
