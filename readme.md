@@ -35,3 +35,7 @@ git switch "branch name" // switch to a specific branch (like git checkout "name
 git switch -c "branch name" // create a new branch and switch to it like (git checkout -b "name")
 
 git pull // it gets the latest changes from a remote repository and merge them into your local branch
+
+git branch -d "branch name" // delete branch
+
+git commit -am "message" // commit and add at the same time
