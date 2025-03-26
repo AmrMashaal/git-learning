@@ -29,3 +29,9 @@ git checkout "name" // switch to a specific branch
 git diff "branch name" // shows what has been changed and compare it
 
 git merge "branch name that is wanted to be merged with the current branch" // merge two branches 
+
+git switch "branch name" // switch to a specific branch (like git checkout "name")
+
+git switch -c "branch name" // create a new branch and switch to it like (git checkout -b "name")
+
+git pull // it gets the latest changes from a remote repository and merge them into your local branch
